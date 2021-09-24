@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Delete Assessment"
+        android:tooltipText="Delete this assessment"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/delete_assessment"/>
+
+    <item android:title="Notify of start date"
+        android:tooltipText="Remind me of start date"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/notify_assessment_start"/>
+
+    <item android:title="Notify of end date"
+        android:tooltipText="Remind me of end date"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/notify_assessment_end"/>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?colorOnPrimary"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/termNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?colorOnPrimary"
+        android:text="termNameView"
+        android:textSize="40sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/termStartDateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="termStartDate"></TextView>
+
+        <TextView
+            android:id="@+id/termDateSeparator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termSeparator" />
+
+        <TextView
+            android:id="@+id/termEndDateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="termEndDate"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

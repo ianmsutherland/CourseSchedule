@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="instructors">
+        <item>Albert Einstein</item>
+        <item>Aristotle</item>
+        <item>Maria Montessori</item>
+        <item>Plato</item>
+        <item>Confucius</item>
+    </string-array>
+
+    <string-array name="phoneNumbers">
+        <item>187–919–5576</item>
+        <item>038–403–2262</item>
+        <item>187–019–5281</item>
+        <item>042–804–2780</item>
+        <item>055–104–7972</item>
+    </string-array>
+
+    <string-array name="email">
+        <item>albert.einstein@zurich.edu</item>
+        <item>aristotle@stagira.gr</item>
+        <item>mmontessori@rome.it</item>
+        <item>aristocles@athens.gr</item>
+        <item>master_kong@qui.cn</item>
+    </string-array>
+</resources>
